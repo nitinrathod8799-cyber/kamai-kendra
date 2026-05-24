@@ -15,7 +15,7 @@ export const metadata = {
   title: "Kamai Kendra",
   description: "Earn money online with Kamai Kendra app",
   verification: {
-    google: "<meta name="google-site-verification" content="3aMoPVIoZ-KMS8uDlbVayqEM-7HODBKPNfJGP5qFPVA" />",
+    google: "3aMoPVIoZ-KMS8uDlbVayqEM-7HODBKPNfJGP5qFPVA",
   },
 };
 
