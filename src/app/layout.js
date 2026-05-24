@@ -12,9 +12,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Kamai Kendra APK Download - Earn Real Money Online",
-  description:
-    "Download Kamai Kendra APK for Android and earn money by completing surveys, quizzes, referrals and daily tasks.",
+  title: "Kamai Kendra",
+  description: "Earn money online with Kamai Kendra app",
+  verification: {
+    google: "<meta name="google-site-verification" content="3aMoPVIoZ-KMS8uDlbVayqEM-7HODBKPNfJGP5qFPVA" />",
+  },
 };
 
 export default function RootLayout({ children }) {
