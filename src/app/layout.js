@@ -49,20 +49,21 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
+
       <Script
-  src="https://www.googletagmanager.com/gtag/js?id=G-607BWJ8GYB"
-  strategy="afterInteractive"
-/>
+        src="https://www.googletagmanager.com/gtag/js?id=G-607BWJ8GYB"
+        strategy="afterInteractive"
+      />
 
-<Script id="google-analytics" strategy="afterInteractive">
-  {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-    gtag('config', 'G-607BWJ8GYB);
-  `}
-</Script>
+          gtag('config', 'G-607BWJ8GYB');
+        `}
+      </Script>
     </html>
   );
 }
