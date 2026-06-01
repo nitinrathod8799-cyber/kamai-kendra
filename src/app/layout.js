@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Kamai Kendra",
   description: "Earn money online with Kamai Kendra app",
+
   keywords: [
     "Kamai Kendra APK",
     "Kamai Kendra Download",
@@ -30,12 +31,15 @@ export const metadata = {
     "earning app",
     "earning apps",
   ],
+
   openGraph: {
     images: ["/banner.jpg"],
   },
+
   verification: {
     google: "3aMoPVIoZ-KMS8uDlbVayqEM-7HODBKPNfJGP5qFPVA",
   },
+
   icons: {
     icon: "/favicon.ico",
   },
